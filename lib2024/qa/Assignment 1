@@ -1,0 +1,73 @@
+<DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf=8" />
+	<title> The Lord of the Rings</title>
+</head>
+<body> 
+
+<header>
+	<h1> My Favorite Movie </h1>
+</header>
+
+<section>	<!--this is the heading to the section-->
+       <h2> The Lord of the Rings: Return of the King </h2>
+	    <p> The final movie in the triology. Its the final battle between good and evil. Will Fordo and Sam be able to destory the One ring? </p>
+	    <h3> Cast List </h3>
+ <ul>
+  <li>Elijah Woods</li>
+  <li>Sean Astin</li>
+  <li>Viggo Mortensen</li>
+  <li>Ian Mckellen</li>
+  <li>Liv Taylor</li>
+  <li>Billy Boyd</li>
+  <li>Dominic Monaghan</li>
+  <li>Orlando Bloom</li>
+  <li>John Rhys-Davies</li>
+  <li>Cate Blanchett</li>
+  <li>Hugo Weaving</li> 
+</ul>        
+</section>
+
+<section> 
+<img src ="https://upload.wikimedia.org/wikipedia/en/b/be/The_Lord_of_the_Rings_-_The_Return_of_the_King_%282003%29.jpg" width="150" alt="en.wikipedia.org" />
+</section>
+
+<section> 
+	<h1> My favorite quote from the movie</h1>
+    <p> "Here at last...Comes the end of our Fellowship. I will not say do not weep for not all tears are evil."</p>
+</section>
+
+<head>
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: yellow;
+}
+<section>
+</style>
+</head>
+<body>
+
+<h2>Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+</body>
+
+<section>
+	    <p>My favorite movie of all time</p>
+
+</section>
+<section>
+
+	<p> VS Date:2023-02-09</p>
+
+</section>
+
+</body>
+</html>
