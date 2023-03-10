@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  <boby>
+ /* RESPONSIVE IMAGE */
+  .watermark img (width: 100%)
+
+ .watermark { position: relative; }
+ .watermark::after {
+ /* ATTACH WATERMARK */
+  content: "YOU SHALL NOT COPY"; 
+  font-size: 1.5cm;
+  font-weight: bold;
+  color: red;
+  opacity: 0.2;
+
+ /* POSITION*/
+  position: absoulte;
+  bottom: 0;
+  right: 0;
+ }
+ .p1 {
+  font-family: Georgia, serif;
+  }
+#title {
+  text-align: center;
+  border: 3px solid black; 
+  }
+.bonus {
+  shape-outside: circle(50%);
+  width:300px;
+  float: left;
+}  
+#car {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+
+<body> 
+  <div id="title">
+ <h1>START THIS YEAR WITH A GIFT YOU WILL NEVER REGRET</h1> </div>
+ <div class="container" >
+   <div class="col-lg-4" >
+         <img class="bonus" src="https://media.istockphoto.com/id/1253501565/vector/red-and-yellow-extra-bonus-isolated-vector-icon-on-white-background.jpg?s=612x612&w=0&k=20&c=8pJexUurjYzLbS6x2TswMNiPfngh18jvxXIGRZARRMs="></img>
+      <p class="p1">There is nothing like driving a brand new luxery car fully equipped SUV - especially if it feels right! As of of B-Epics Compensation Plan, one of the awesome ways we reward Brand Partners is with a car payment bonus of $500 per month.</p>
+      <p class="p1"> With our one-of-a-kind Car bouns program, you only need to focus on one simple thing: Get 4 Brand Parnters on the $89.95 package and then just teach them to do the same thin. Get 4, teach 4.. it doesn't get any easier than that!</p>
+      <p class="p1"> Whats even better is that instead of requiring you to drive a specific make and model, you get to pick out any car (or truck, SUV, or even a motorcycle) that you want! In the color of your choice! Buy iy or lease it - it's completely up to you!</p>
+      <p class="p1"> So whats your dream ride?</p>
+    </div>
+  </div>
+    
+<img id="car" src="https://media.istockphoto.com/id/959391798/photo/3d-illustration-of-generic-compact-white-suv.jpg?s=612x612&w=0&k=20&c=2VqUK6i3gs1_ZbYKCEusyjhp-PqakZFsMM7xppqsqeU=" alt="white suv" width="500" height="333">
+ 
+   <table border="4px" width="90%">
+     <tr>
+        <th>Entertainment</th>
+        <th>Company</th>
+        <th>Products</th>
+        <th>Community</th>
+        <th>Brand</th>
+    </tr>
+    <tr>
+        <td><img src="https://etimg.etb2bimg.com/photo/81478822.cms" height=300 width=400></td>
+        <td><img src="https://media.istockphoto.com/id/813095138/vector/small-business-saturday.jpg?s=612x612&w=0&k=20&c=9FbpM8d-yUQS7KOpB2_DRaYsLuXmOj2lY_weiyq2wSk=" height=300 width=400></td>
+        <td><img src="https://cdn.shopify.com/s/files/1/2303/2711/files/2_e822dae0-14df-4cb8-b145-ea4dc0966b34.jpg?v=1617059123" height=300 width=400></td>
+        <td><img src="https://corporate.target.com/_media/TargetCorp/Sustainability-ESG/Header_CommunityEngagement.jpg?ext=.jpg" height=300 width=400></td>
+        <td><img src="https://lh5.googleusercontent.com/e2DnlBNCwzPCP8cWmPF_eJ4EkTGlCF_fqjxJP4g0_w4lcoWKoIMY9cJ2o4SClZTxsF7oRJHvLb_tKX3yiHVwQRdhm8fZ3WvLgB9x5j-DS66fIfq33rJV8BdeKkcNF2tnlSPdNZOn" height=300 width=400></td>
+    </tr>
+</table>
+
+ <div class="watermark">
+   <img scr="https://www.magrudereye.com/wp-content/uploads/2018/08/Blurred-vision.jpeg"/>
+   </div>
+ </body>
+</html>
